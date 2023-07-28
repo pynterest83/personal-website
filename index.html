@@ -1,130 +1,334 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Chu Huy Quang</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class = "nav container">
-                <a href="#" class = "nav__logo">Huy Quang</a>
 
-                <div class = "nav__menu" id = "nav__menu">
-                    <ul class = "nav__list grid">
-                        <li class = "nav__item">
-                            <a href = "#home" class = "nav__link">
-                                <i class = "uil uil-estate"></i> Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href = "#about" class = "nav__link">
-                                <i class = "uil uil-user"></i> About
-                            </a>
-                        </li>
-                        <li>
-                            <a href = "#skills" class = "nav__link">
-                                <i class = "uil uil-file-alt"></i> Skills
-                            </a>
-                        </li>
-                        <li>
-                            <a href = "#qualification" class = "nav__link">
-                                <i class = "uil uil-briefcase-alt"></i> Qualification
-                            </a>
-                        </li>
-                        <li>
-                            <a href = "#projects" class = "nav__link">
-                                <i class="uil uil-github"></i> Projects
-                            </a>
-                        </li>
-                        <li>
-                            <a href = "#contact" class = "nav__link">
-                                <i class = "uil uil-message"></i> Contact
-                            </a>
-                        </li>
-                    </ul>
-                    <i class = "uil uil-times nav__close" id = "nav__close"></i>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel='icon' href='assets/img/quang1.png'>
+    <link rel='stylesheet' href='assets/css/styles.css' id='theme'>
+    <title>Chu Huy Quang</title>
+
+</head>
+
+<body>
+    <!--Header-->
+    <header class = 'l-header'>
+        <nav class = "nav bd-grid">
+            <div>
+                <a href = "#" class = 'nav__logo'>Huy Quang</a>
+            </div>
+
+            <div class = "nav__menu" id = "nav-menu">
+                <ul class = "nav__list">
+                    <li class = 'btn-theme'><i class='bx bxs-sun bx-sm'></i></li>
+
+                    <li class = "nav__item"><a href = #about class = "nav__link">About</a></li>
+                    <li class = "nav__item"><a href = #qualification class = "nav__link">Qualification</a></li>
+                    <li class = "nav__item"><a href = #skills class = "nav__link">Skills</a></li>
+                    <li class = "nav__item"><a href = #projects class = "nav__link">Projects</a></li>
+                    <li class = "nav__item"><a href = #awards class = "nav__link">Awards</a></li>
+                    <li class = "nav__item"><a href = #contact class = "nav__link">Contact</a></li> 
+                </ul>
+            </div>
+
+            <div class = "nav__toggle" id = "nav-toggle">
+                <i class='bx bx-menu' ></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--Home-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">
+                    Hi! <br>
+                    I'm<span class="home__title-color"> Huy Quang </span>
+                </h1>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/huy-quang-chu004/" class="home__social-icon" target="_blank"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/pynterest83" class="home__social-icon" target="_blank"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://www.facebook.com/chuquang.004" class="home__social-icon" target="_blank"><i class='bx bxl-facebook' ></i></a>
+            </div>
+
+
+            <div class="home__img">
+                <img src='assets/img/quang1.png'>
+            </div>
+        </section>
+
+        <!--About-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src='assets/img/quang2.jpg'>
                 </div>
 
-                <div class = "nav__btns">
-                    <div class = "nav__toggle" id = "nav__toggle">
-                        <i class = "uil uil-apps"></i>
+                <div>
+                    <h2 class="about__subtitle">Data Cloud/Software Engineer</h2>
+                    <p class="about__text">Second year Undergraduate in Computer Science at University of Engineering and Technology - Vietnam National University (UET - VNU).
+                        Enthusiastic learner and product-maker who loves contributing to Software Engineering and
+                        Database-related projects.</p>
+
+                    <br>
+
+                    <a href="assets/Nguyen Van Binh - Resume.pdf" download="Nguyen Van Binh - Resume"
+                        target="_blank"><button class='button'><i class='bx-fw bx bxs-download'></i>&nbspMy
+                            Resume</button></a>                                   
+                </div>
+            </div>
+
+            <div class="qualification__container">
+                
+            </div>
+        </section>
+
+        <!--Qualifications-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section-title">Qualification</h2>
+
+            <div style="text-align: center;">
+                <p>
+                    <span class="q__toggle" id="education-toggle" onclick="showEducation()">&nbsp;<i
+                            class='bx-fw bx bxs-book-open'></i> Education</span>
+                    <i class='bx-fw bx bx-dots-vertical'></i>
+                    <span class="q__toggle" id="experience-toggle" onclick="showExperience()"><i
+                            class='bx-fw bx bxs-briefcase'></i> Experience</span>
+                </p>
+            </div>
+
+            <div class="qualification__container">
+                <!-- Experience -->
+                <!-- <div class="timeline" id="experience">
+                    <ul>
+                        <li>
+                            <div class="content">
+                                <h3>Data Science Intern</h3>
+                                <h3>Science Feedback (Paris)</h3>
+                                <p>Develop web domain credibility ranking models using backlink data with semi-supervised label propagation algorithm and graph neural networks</p>
+                                <p>Explore and analyze data scraping tools for social media platforms to gather insights for fact-checking tasks</p>
+                            </div>
+                            <div class="time">
+                                <h4>2/2023 - now</h4>
+                            </div>
+                        </li>
+
+                        <div style="clear:both;"></div>
+                    </ul>
+                </div> -->
+
+                <!-- Education -->
+                <div class="timeline" id="education">
+                    <ul>
+                        <li>
+                            <div class="content">
+                                <h3>National University of Engineering and Technology - Vietnam National University</h3>
+                                <p>Bachelor of Engineering - Computer Science</p>
+                                <p>GPA: 3.96</p>
+                                <p><a href="assets/pdf/transcript.pdf" download="Chu Huy Quang - Transcript" 
+                                    target="_blank">Transcript <i class='bx bx-link-external' style="vertical-align:middle"></i></a>
+                                </p>
+                            </div>
+                            <div class="time">
+                                <h4>2022 - now</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content">
+                                <h3>Phan Boi Chau High School for the Gifted</h3>
+                                <p>Major in Physics</p>
+                            </div>
+                            <div class="time">
+                                <h4>2019 - 2022</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content">
+                                <h3>Dang Thai Mai secondary school</h3>
+                                <p>Major in Physics</p>
+                            </div>
+                            <div class="time">
+                                <h4>2015 - 2019</h4>
+                            </div>
+                        </li>
+
+                        <div style="clear:both;"></div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!--Skills-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+
+                <div class="skills">
+                    <h3 class="skill__title">Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>C/C++</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+
+                <div class="skills">
+                    <h3 class="skill__title">Database / Data Processing</h3>
+                    <ul>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+
+                <div class="skills">
+                    <h3 class="skill__title">Web Development</h3>
+                    <ul>
+                        <li>NodeJS</li>
+                        <li>HTML/CSS/JavaScript</li>
+                    </ul>
+                </div>
+                <div class = "skills">
+                    <h3 class = "skills__title">Game Development</h3>
+                    <ul>
+                        <li>SDL2</li>
+                        <li>OpenGL</li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h3 class="skill__title">Others</h3>
+                    <ul>
+                        <li>Git, GitHub</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--Projects-->
+        <section class="projects section" id="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="projects__container bd-grid">
+
+                <div class="card">
+                    <img src="assets/img/todolist.png" alt="" class="card__img">
+                    <div class="card__data">
+                        <h1 class="card__title">Todo-List</h1>
+
+                        <p class="card__description">MVC design pattern website built on NodeJS, ExpressJS 
+                            and MongoDB with CRUD functionalities</p>
+                        <a href="https://github.com/pynterest83/Todo-List" class="card__button"
+                            target="_blank"><i class='bx bxl-github'></i></a>
                     </div>
                 </div>
-            </nav>
-        </header>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
+                <div class="card">
+                    <img src="assets/img/warcraft.png" alt="" class="card__img">
+                    <div class="card__data">
+                        <h1 class="card__title">WarCraft</h1>
+                        <p class="card__description">Game inspired by the shooting game Chicken Invaders built on SDL2
+                            C++, and OpenGL</p>
+                        <a href="https://github.com/pynterest83/WarCraft" class="card__button" target="_blank"><i
+                                class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/img/java.png" alt="" class="card__img">
+                    <div class="card__data">
+                        <h1 class="card__title">Bomberman</h1>
+                        <p class="card__description">Object Oriented game Bomberman
+                            built on Java Swing inspired by the classic game Bomberman
+                        </p>
+                        <a href="https://github.com/pynterest83/Bomberman" class="card__button"
+                            target="_blank"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!--Awards-->
+        <section class="awards section" id="awards">
+            <h2 class="section-title">Awards</h2>
+
+            <div class="awards__container bd-grid">
+
+                <div class="award__div">
+                    <img src="assets/img/physics.png" alt="" class="award__img">
+                    <div class="award__hide">
+                        <h3 class="award__title">Second-Prize NgheAn Physics Olympiads</h3>
+                        <p class="award__description">5/2019 1/2022</p>
+                    </div>
+                </div>
+
+                <div class="award__div">
+                    <img src="assets/img/uet.png" alt="" class="award__img">
+                    <div class="award__hide">
+                        <h3 class="award__title">Scholarship for Excellent Academic Result</h3>
+                        <p class="award__description">12/2022</p>
+                    </div>
+                </div>
+
+        </section>
+
+        <!--Contact Me-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="contact__container bd-grid">
+
+                <div class="contact__item">
+                    <a href='tel:+84986168118' class='contact__link'><i class='bx bxs-phone'></i> (+84) 986168118</a>
+                </div>
                 
-            </section>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
+                <div class="contact__item">
+                    <a href='mailto:quangdtm2004@gmail.com' target="_blank" class='contact__link'><i
+                            class='bx bxs-envelope'></i> quangdtm2004@gmail.com</a>
+                </div>
                 
-            </section>
+                <div class="contact__item">
+                    <a href='https://t.me/quang_chu' target="_blank" class='contact__link'><i
+                            class='bx bxl-telegram'></i> quang_chu</a>
+                </div>
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
+            </div>
 
-            </section>
+        </section>
 
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
+        <!--Scroll to top-->
+        <i onclick="goToTop()" id="goToTop" class='bx bxs-chevron-up-circle bx-lg'></i>
+    </main>
 
-            </section>
+    <!--Footer-->
+    <footer class="footer">
+        <p class="footer__title">Chu Huy Quang</p>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/huy-quang-chu004/" class="footer__icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/pynterest83" class="footer__icon" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.facebook.com/chuquang.004" class="footer__icon" target="_blank"><i class='bx bxl-facebook' ></i></a>
+        </div>
+    </footer>
 
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
-            </section>
+    <!--Scroll-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                
-            </section>
+    <!--JavaScript-->
+    <script src="assets/js/main.js"></script>
+</body>
 
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
-
-            </section>
-
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
-            </section>
-
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-
-            </section>
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-         
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        
-
-        <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
-
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
-    </body>
 </html>
